@@ -1,4 +1,8 @@
-name = input("Please enter your name: ")
-greeting = (f"Hello {name}")
+def greet_user():
 
-print(greeting)
+    name = input("Please enter your name: ")
+    greeting = (f"Hello {name}")
+
+    print(greeting)
+
+greet_user()
